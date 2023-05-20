@@ -4,7 +4,7 @@ metadata:
   name: sample-inline
 spec:
   providerConfigRef:
-    name: aws-eu-west-1
+    name: aws-eu-central-1
   forProvider:
     source: Inline
     module: |
