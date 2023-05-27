@@ -19,7 +19,7 @@ spec:
   # providers.
   configuration: |
     provider "aws" {
-      shared_credentials_file = "${path.module}/aws-creds.ini"
+      shared_credentials_files = ["${path.module}/aws-creds.ini"]
       region = "eu-central-1"
     }
 

@@ -3,6 +3,8 @@ kind: Workspace
 metadata:
   name: sample-inline
 spec:
+  providerConfigRef:
+    name: aws-eu-central-1
   forProvider:
     source: Inline
     module: |

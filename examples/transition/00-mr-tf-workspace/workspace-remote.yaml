@@ -3,6 +3,8 @@ kind: Workspace
 metadata:
   name: sample-remote
 spec:
+  providerConfigRef:
+    name: aws-eu-central-1
   forProvider:
     source: Remote
     module: git::https://github.com/ytsarev/provider-terraform-test-module.git//transition?ref=main
